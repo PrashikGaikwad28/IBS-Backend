@@ -49,6 +49,9 @@ public class AppliedLoans {
 	@JsonProperty("annualIncome")
 	private long annual_income;
 	
+	@JsonProperty("monthlyEmi")
+	private long monthly_emi;
+	
 //	@JsonProperty("companyName")
 //	private String company_name;
 	
