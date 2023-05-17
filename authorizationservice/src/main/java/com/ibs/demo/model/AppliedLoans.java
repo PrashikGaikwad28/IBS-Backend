@@ -36,6 +36,9 @@ public class AppliedLoans {
 	@JsonProperty("applyDate")
 	private Date apply_date;
 	
+	@JsonProperty("endDate")
+	private Date end_date;
+	
 	@OneToOne
 	@JoinColumn(name = "loan_id", referencedColumnName = "id")
 	private LoanType loan_id;
